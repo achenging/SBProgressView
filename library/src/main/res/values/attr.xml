@@ -1,0 +1,18 @@
+<resources>
+
+    <declare-styleable name="SBProgressView">
+        <attr name="outter_line_number" format="integer" />
+        <attr name="circle_color" format="color|reference" />
+        <attr name="circle_radius" format="dimension|reference" />
+        <attr name="outter_base_radius" format="integer" />
+        <attr name="outter_offset_radius" format="dimension|reference" />
+        <attr name="outter_line_color" format="reference" />
+        <attr name="outter_line_size" format="dimension|reference" />
+        <attr name="outter_line_circle_radius" format="dimension|reference" />
+        <attr name="outter_line_circle_color" format="reference" />
+        <attr name="circle_text" format="string|reference" />
+        <attr name="circle_text_size" format="dimension|reference" />
+        <attr name="circle_text_color" format="color|reference" />
+        <attr name="outer_line_rotation_duration" format="integer|reference" />
+    </declare-styleable>
+</resources>

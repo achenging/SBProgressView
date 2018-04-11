@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="com.achenging.sbprogressview.MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Animation"
+        android:onClick="startAnimation"
+        android:textAllCaps="false"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pause Animation"
+        android:onClick="pauseAnimation"
+        android:textAllCaps="false"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resume Animation"
+        android:onClick="resumeAnimation"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop Animation"
+        android:onClick="stopAnimation"
+        android:textAllCaps="false"/>
+
+    <com.achenging.view.SBProgressView
+        android:id="@+id/sbView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        app:circle_color="#ff00"
+        app:circle_radius="40dp"
+        app:circle_text="Test"
+        app:circle_text_color="#179"
+        app:circle_text_size="24sp"
+        app:outter_base_radius="90"
+        app:outter_line_circle_color="@array/line_colors"
+        app:outter_line_circle_radius="4dp"
+        app:outter_line_color="@array/line_colors"
+        app:outter_line_number="5"
+        app:outter_line_size="3dp"
+        app:outter_offset_radius="16dp"/>
+
+
+</LinearLayout>
