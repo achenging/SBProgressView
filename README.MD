@@ -20,4 +20,4 @@ outer_line_rotation_duration      动画执行的时长
 
 # 运行效果
 
-![image](screentshot/sbpv.gif)
+![image](screenshot/sbpv.gif)
